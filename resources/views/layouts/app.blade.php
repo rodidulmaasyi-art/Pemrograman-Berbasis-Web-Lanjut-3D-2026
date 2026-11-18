@@ -12,6 +12,7 @@
         <div class="container">
             <h1 class="header__title">PERDIG RADIT</h1>
             <p class="header__subtitle">Temukan buku favoritmu di sini</p>
+            <p class="header__nim">NIM: 250441100137</p>
         </div>
     </header>
 
