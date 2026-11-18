@@ -1,0 +1,37 @@
+# Berkas environment: jangan pernah diunggah ke Vercel.
+# Nilai variabel produksi didaftarkan lewat dashboard Settings > Environment Variables.
+.env
+.env.*
+!.env.example
+
+# Dependensi: diinstal ulang saat build (composer install / npm ci).
+/vendor
+/node_modules
+
+# Aset hasil build lokal: dibangun ulang oleh Vercel.
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+
+# Berkas pengembangan & konfigurasi lokal.
+.phpunit.result.cache
+.phpactor.json
+.auth.json
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+.phpunit.cache
+/.idea
+/.vscode
+/.nova
+/.zed
+/.cursor
+/.codex
+/tests
+/Modul-1
+/HandsOnModule1
+/*.md
+*.log
+.DS_Store
+Thumbs.db
